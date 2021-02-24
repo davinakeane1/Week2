@@ -6,7 +6,7 @@ pop = [2.53, 2.57, 2.62, 2.67, 2.71, 2.76, 2.81, 2.86, 2.92, 2.97, 3.03, 3.08]
 import matplotlib.pyplot as plt
 
 # Build Scatter plot
-plt.scatter(pop, year)
+plt.scatter(year, pop)
 
 # Show plot
 plt.show()
