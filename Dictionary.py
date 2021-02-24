@@ -1,6 +1,3 @@
-#importing matplot
-import matplotlib.pyplot as plt
-
 # Definition of countries and capital
 countries = ['spain', 'france', 'germany', 'norway']
 capitals = ['madrid', 'paris', 'berlin', 'oslo']
@@ -9,4 +6,7 @@ capitals = ['madrid', 'paris', 'berlin', 'oslo']
 ind_ger = countries.index("germany")
 
 # Use ind_ger to print out capital of Germany
-capitals[ind_ger]
+print(capitals[ind_ger])
+
+
+
